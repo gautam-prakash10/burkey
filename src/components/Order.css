@@ -1,0 +1,25 @@
+/* Default styles for larger screens (laptop, desktop) */
+.flex {
+    /* Add any common styles for larger screens here */
+  }
+  
+  /* Tablet view */
+  @media (max-width: 768px) {
+    .flex {
+      flex-direction: column;
+    }
+    
+    /* Add any specific styles for tablet view here */
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .container {
+          flex-direction: column;
+        }
+      }
+  }
+  
+  /* Mobile view */
+  @media (max-width: 480px) {
+    .flex {
+        flex-direction: column;
+    }
+  }

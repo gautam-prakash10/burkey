@@ -1,0 +1,23 @@
+/* Responsive styles for tablet view */
+@media (max-width: 768px) {
+    .container {
+      ml: 0;
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive styles for mobile view */
+  @media (max-width: 480px) {
+    .container {
+      ml: 0;
+      flex-direction: column;
+    }
+  }
+  
+  /* Responsive styles for laptop view */
+  @media (min-width: 769px) and (max-width: 1024px) {
+    .container {
+      ml: 4;
+      flex-direction: column;
+    }
+  }
