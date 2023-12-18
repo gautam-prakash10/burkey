@@ -18,17 +18,11 @@ const Reviews = () => {
   //  };
       
     return (
-        <div className="flex bg-black">
-        
-            <div className="flex flex-col">
-            <div className='flex-1 ml-10 mt-5 item-center'>
-            <h2 className='text-4xl text-yellow-400 mb-10' style={{ textAlign: 'center' }}>Google Reviews</h2>
-            
-      <div className="flex-container">
-      <div className="w-3/4 m-auto">
-            {/* <div className="m-auto" data-carousel="slide" data-carousel-item> */}
-            <div className="mt-1">
-            
+      <div className="flex bg-black">
+      <div className="flex flex-col w-full md:w-3/4 mx-auto mt-5">
+        <h2 className="text-4xl text-yellow-400 mb-10 text-center">Google Reviews</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div className="flex-container">
               {data.map((d) => {
                
                 return (
@@ -44,10 +38,10 @@ const Reviews = () => {
                 )
               })}
               </div>
-          </div>
-            </div>
-        </div>
+              </div>
+              <div className="container">
            <button className='bg-white hover:bg-gray-200 text-black-500 mb-5 mt-10 py-2 px-2 rounded-3xl'>Review Us</button>
+            </div>
             </div>
             </div>
       
@@ -77,14 +71,28 @@ const Reviews = () => {
         name: `Ritu Ingle`,
         date: `2023-04-26`,
         stars: `⭐️⭐️⭐️⭐️⭐️`,
-        review: `In gurgaon for a trip, a friend suggested this place. Totally worth it! Ordered Mushroom do pyaza and Dahi kebab. so so yummy. Good quantity.`
+        review: `In gurgaon for a trip, a friend suggested this place. Totally worth it! Ordered Mushroom do pyaza and Dahi kebab.`
       },
       {
         name: `Priyanshu Gautam`,
         date: `2023-04-24`,
         stars: `⭐️⭐️⭐️⭐️⭐️`,
-        review: `Ordered a large variety of dishes. The food was fresh and flavoursome. Especially loved the lasooni chicken tikka, mutton rara and laccha parantha.`
+        review: `Ordered a large variety of dishes. The food was fresh and flavoursome.`
+      },
+      {
+        name: `POOJA AYADAV`,
+        date: `2023-05-20`,
+        stars: `⭐️⭐️⭐️⭐️⭐️`,
+        review: `Awesome food,I stumbled upon this place while searching for a good place for salads, and what a good find.`
+      },
+      {
+        name: `sunil rai`,
+        date: `2023-04-23`,
+        stars: `⭐️⭐️⭐️⭐️⭐️`,
+        review: `It may look like your another average neighborhood cafe, but Burkey is anything but!
+        I ordered Dahi Kebabs. The crust was crisp, flavorful, and chewy.`
       }
+
       
     ]
     
