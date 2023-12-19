@@ -6,8 +6,8 @@ import Getintouch from "./components/Getintouch";
 import Header from "./components/Header";
 import About from "./components/About";
 import Order from "./components/Order";
-import Gallary from "./components/Gallary";
-import Review from "./components/Review";
+import Gallery from "./components/Gallery";
+import Reviews from "./components/Reviews";
 
 export default function App() {
   return (
