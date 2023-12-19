@@ -1,3 +1,7 @@
+.food.img{
+  width: 40rem;
+  height: 25rem;
+}
 /* Default styles for larger screens (laptop, desktop) */
 .flex {
     /* Add any common styles for larger screens here */
@@ -21,5 +25,6 @@
   @media (max-width: 480px) {
     .flex {
         flex-direction: column;
+        
     }
   }
