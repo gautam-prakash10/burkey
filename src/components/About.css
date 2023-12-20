@@ -1,4 +1,3 @@
-/* Responsive styles for tablet view */
 @media (max-width: 768px) {
     .container {
       ml: 0;
