@@ -16,9 +16,9 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/free-mode";
 
-// import "./Gallary.css";
+// import "./Gallery.css";
 
-const Gallary = () => {
+const Gallery = () => {
   return(
    <div>
    <div className="flex justify-center items-center font-serif text-yellow-500 text-4xl p-5">
@@ -451,4 +451,4 @@ const Gallary = () => {
    </div>
   );
 };
-export default Gallary;
+export default Gallery;
