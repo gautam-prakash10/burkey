@@ -6,8 +6,8 @@ import 'swiper/css/navigation';
 
 import 'swiper/css/scrollbar';
 import 'swiper/css/free-mode';
-import Reviews from "./Reviews";
-import "./Reviews.css";
+import Review from "./Review";
+import "./Review.css";
 
 
 const data = [ 
@@ -97,28 +97,32 @@ const data = [
                       spaceBetween: 20,
                     },
                     768: {
-                      slidesPerView: 2,
+                      slidesPerView: 3,
                       spaceBetween: 40,
                     },
                     1024: {
-                      slidesPerView: 4,
+                      slidesPerView: 3,
                       spaceBetween: 50,
                     },
+                    1440:{
+                      slidesPerView:  4,
+                      spaceBetween: 50,
+                    }
                   }}
                   >
                   {data.map((d) => {
 
                     return (
                       <SwiperSlide key={d.name}>
-                      <Reviews name={d.name} img={d.img} date={d.date} stars={d.stars} review={d.review} />
+                      <Review name={d.name} img={d.img} date={d.date} stars={d.stars} review={d.review} />
                       </SwiperSlide>
                     )
                     })}
-                    <div className="bg-black">
-                        <button className=' font-semi-bold bg-white hover:bg-gray-200 text-black-500 mb-5 mt-10 ml-5 py-2 px-6 rounded-3xl'>Review Us</button>
+                    <div className="bg-black ">
+                        <button className=' font-semi-bold bg-white  hover:bg-gray-200 text-black-500 mb-5 mt-10 ml-5 py-2 px-6 rounded-3xl'>Review Us</button>
                       </div>
                     </Swiper>
   )
            
 }
-export default Sliding
+export default Sliding;
