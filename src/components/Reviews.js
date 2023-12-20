@@ -14,7 +14,7 @@ import "./Reviews.css";
 
 
   
-const Reviews = ({ name, date, stars, review }) => {
+const Reviews = ({ name, img, date, stars, review }) => {
       return (
                 <div className="flex bg-black">
                 
@@ -23,12 +23,13 @@ const Reviews = ({ name, date, stars, review }) => {
                       
                       
                               <div className="flex-container">
-                                  <div key={name} className="bg-white text-black rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...">
-                                    <div className="card flex flex-col justify-center items-center gap-4 p-4">
-                                      <p className="flex font-bold">{name}</p>
-                                      <p className="flex-1">{date}</p>
-                                      <p>{stars}</p>
-                                      <p className="flex-1 font semi-bold text-center">{review}</p>
+                                  <div key={name} className="bg-white text-black rounded-l transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-200 ...">
+                                    <div className="card flex flex-col justify-center items-center gap-1 p-5 rounded-xl">
+                                      <img className="images w-20 h-20 mt-n10 rounded-full justify-center " src={img} alt="" />
+                                      <p className="font-bold ">{name}</p>
+                                      <p className="">{date}</p>
+                                      <p className="">{stars}</p>
+                                      <p className="flex-1 font semi-bold text-center ">{review}</p>
                                   </div>
                                 </div>
                               </div>
