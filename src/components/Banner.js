@@ -18,11 +18,11 @@ const Banner = () => {
           Delivering Happiness to your Doorstep
         </p>
         <div className='flex flex-row justify-center  sm:justify-start mt-6'>
-          <button className='rounded-full bg-white w-16 xl:w-36 xl:h-10  sm:w-16 h-8 sm:h-10 mx-2'>
-            <img className='p-1  sm:p-2' src='https://burkey.in/wp-content/uploads/2023/06/swig.png' alt='Swiggy' />
+          <button className='rounded-full bg-white w-16 xl:w-32 xl:h-10   sm:w-16 h-8 sm:h-10 mx-2'>
+            <img className='p-2   sm:p-2' src='https://burkey.in/wp-content/uploads/2023/06/swig.png' alt='Swiggy' />
           </button>
-          <button className='rounded-full bg-white   mx-2 sm:ml-5 w-16 xl:w-36 xl:h-10 sm:w-16 h-8 sm:h-10'>
-            <img className='p-1  sm:p-2 sm:pl-3' src='https://burkey.in/wp-content/uploads/2023/06/zom.png' alt='Zomato' />
+          <button className='rounded-full bg-white   mx-2 sm:ml-5 w-16 xl:w-32  xl:h-10 sm:w-16 h-8 sm:h-10'>
+            <img className='p-2  sm:p-2 sm:pl-3' src='https://burkey.in/wp-content/uploads/2023/06/zom.png' alt='Zomato' />
           </button>
         </div>
       </div>
