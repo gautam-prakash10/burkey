@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Menu = () => {
@@ -14,7 +13,7 @@ const Menu = () => {
   <p className='font-sans text-lg md:text-xl text-white'>
     At Burkey, we pride ourselves on offering a diverse and delicious menu of North Indian cuisine, designed to satisfy even the most discerning palates. From classic dishes like butter chicken and tandoori chicken to vegetarian favorites like paneer tikka and chana masala, our menu has something for everyone. Whether you're in the mood for something spicy and flavorful or mild and creamy, our menu has it all.
   </p>
-  <div className='flex items-end'>
+  <div className='flex items-start'>
     <button className='bg-white rounded-full w-24 mb-5 xl:w-28 md:w-16 h-10 mt-4 ml-auto'>
      Menu
     </button>
