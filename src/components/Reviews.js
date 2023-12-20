@@ -29,7 +29,7 @@ const Review = ({ name, img, date, stars, review }) => {
                                       <p className="font-bold ">{name}</p>
                                       <p className="">{date}</p>
                                       <p className="">{stars}</p>
-                                      <p className="flex-1 font semi-bold text-center ">{review}</p>
+                                      <p className="flex-1 font-serif semi-bold text-center ">{review}</p>
                                   </div>
                                 </div>
                               </div>
