@@ -2,7 +2,7 @@ import React from 'react';
 // import Slider from 'react-slick';
 // import 'slick-carousel/slick/slick.css';
 // import 'slick-carousel/slick/slick-theme.css';
-import "./Review.css";
+import "./Reviews.css";
 
 // import { Swiper, SwiperSlide } from 'swiper/react';
 // import 'swiper/css';
@@ -14,7 +14,7 @@ import "./Review.css";
 
 
   
-const Review = ({ name, img, date, stars, review }) => {
+const Reviews = ({ name, img, date, stars, review }) => {
       return (
                 <div className="flex bg-black">
                 
@@ -39,4 +39,4 @@ const Review = ({ name, img, date, stars, review }) => {
                 </div>
   )
 }
-    export default Review;
+    export default Reviews;
