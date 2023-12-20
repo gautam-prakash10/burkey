@@ -3,21 +3,28 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding: 10px;
-    margin: 10px 600px;
+    margin: 7px 200px;
    
     align-items: center;
     
-   grid-column-gap: 20px;
+   grid-column-gap: 7px;
    }
 
-   .container{
+   .container1{
     width: 200px;
+    overflow: hidden;
 
    }
    .card{
-    width: 18rem;
-    height: 15rem;
+    width: 24rem;
+    height: 18rem;
     background: #fbf8f8;
+    
    }
+
+   .images{
+    margin-top: -50px;
+   }
+
    
    
