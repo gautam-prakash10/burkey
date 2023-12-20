@@ -4,20 +4,20 @@ const Getintouch = () => {
   return (
     <div className=' bg-black'>
     <div className=' ml-2 md:ml-12    '>
-      <h1 className='text-yellow-500 font-serif  text-3xl md:text-5xl'>
+      <h1 className='text-yellow-500 font-serif ml-5  text-3xl md:text-5xl'>
         Get In Touch With Us
       </h1>
       <div className='flex flex-col  mx-auto mt-4 md:flex-row md:mt-8'>
-        <form className='flex-1 p-3 mx-auto md:w-1/2'>
+        <form className='flex-1 p-3  mx-auto md:w-1/2'>
         <input
-            className="w-full mt-4 h-10 border rounded-md pl-3 focus:outline-none focus:border-blue-500"
+            className="w-full mt-4 h-10 border rounded-md pl-3 focus:outline-none "
             type="text"
             id="name"
             name="name"
             placeholder='Name'
           />
           <input
-            className="w-full mt-4 h-10 border rounded-md pl-3 focus:outline-none focus:border-blue-500"
+            className="w-full mt-4 h-10 border rounded-md pl-3 focus:outline-none "
             type="email"
             id="email"
             name="email"
@@ -25,7 +25,7 @@ const Getintouch = () => {
           />
 
           <input
-            className="w-full mt-4 h-10 border rounded-md pl-3 focus:outline-none focus:border-blue-500"
+            className="w-full mt-4 h-10 border rounded-md pl-3 focus:outline-none "
             type="tel"
             id="phone"
             name="phone"
@@ -33,7 +33,7 @@ const Getintouch = () => {
           />
 
           <textarea
-            className="w-full mt-4 h-20 border rounded-md pl-3 focus:outline-none focus:border-blue-500"
+            className="w-full mt-4 h-20 border rounded-md pl-3 focus:outline-none "
             id="message"
             name="message"
             placeholder='Message'
