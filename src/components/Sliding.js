@@ -1,5 +1,5 @@
 import React from 'react'; 
-import { Autoplay, Navigation, Scrollbar, A11y, FreeMode } from 'swiper/modules';
+import { Autoplay, Navigation, Scrollbar,  FreeMode } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
