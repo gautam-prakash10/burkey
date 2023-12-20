@@ -1,9 +1,10 @@
 import React from 'react';
+// import "./Order.css"
 
 const Order = () => {
   return (
     <div className="flex flex-col md:flex-row pb-10 pt-10 bg-black">
-      <div className="md:w-1/2 ml-2 md:ml-12  mx-auto">
+      <div className="md:w-1/2 ml-2 md:ml-12 pl-2 pr-2  mx-auto">
         <div className="flex-1  mt-10 items-left">
           <p className="text-3xl md:text-5xl text-yellow-400 font-serif  mb-5">Order in Bulk with Us</p>
           <p className="text-lg md:text-xl text-white  mb-5 mt-5">
@@ -15,9 +16,9 @@ const Order = () => {
         </div>
      </div>
 
-      <div className="md:w-1/2 mt-10 md:mt-0   md:ml-0 items-center">
-        <img src="https://burkey.in/wp-content/uploads/2023/06/mob-fd.png" alt="food-gif"  className=" w-full ml-10 mt-16 md:w-auto" />
-      </div>
+     <div className="food flex-1 ml-10 mb-20 items-right">
+          <img src="https://burkey.in/wp-content/uploads/2023/06/mob-fd.png" alt="food-gif" />
+        </div>
     </div>
   );
 };
