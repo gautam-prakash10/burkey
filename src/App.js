@@ -6,7 +6,7 @@ import Getintouch from "./components/Getintouch";
 import Header from "./components/Header";
 import About from "./components/About";
 import Order from "./components/Order";
-import Gallary from "./components/Gallary";
+import Gallery from "./components/Gallery";
 // import Review from "./components/Review";
 import Sliding from "./components/Sliding";
 
@@ -20,7 +20,7 @@ export default function App() {
       <About/>
       <Menu/>
       <Order/>
-      <Gallary/>
+      <Gallery/>
       <div className="grid place-items-center mt-10">
             <h2 className="text-center font-serif text-4xl text-yellow-400 mb-10">
               Instagram
