@@ -1,6 +1,9 @@
-.food.img{
-  width: 40rem;
-  height: 25rem;
+.food{
+  display:flex;
+  width: 80rem;
+  height: 40rem;
+  object-fit:cover;
+  
 }
 /* Default styles for larger screens (laptop, desktop) */
 .flex {
