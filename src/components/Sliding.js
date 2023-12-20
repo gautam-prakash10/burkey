@@ -62,8 +62,7 @@ const data = [
  const Sliding = () => {
   
        return (
-
-                  <Swiper
+                  <Swiper className=''
                   autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
@@ -77,7 +76,7 @@ const data = [
                   spaceBetween={10}
                   slidesPerView={3}
                   freeMode={true}
-                  scrollbar={{draggable: true}}
+                  scrollbar={true}
                   onSwiper={(swiper) => console.log(swiper)}
                   onSlideChange={() => console.log('slide change')}
 
@@ -104,19 +103,19 @@ const data = [
                     }
                   }}
                   >
-
                   {data.map((d) => {
 
                     return (
                       <SwiperSlide key={d.name}>
                       <Reviews name={d.name} date={d.date} stars={d.stars} review={d.review} />
                       </SwiperSlide>
-
-
-                    );
+                    )
                     })}
+                    <div className="bg-black">
+                        <button className='bg-white hover:bg-gray-200 text-black-500 mb-5 mt-10 py-2 px-4 rounded-3xl'>Review Us</button>
+                      </div>
                     </Swiper>
   )
            
 }
-export default Sliding;
+export default Sliding
