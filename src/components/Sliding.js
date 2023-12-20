@@ -6,8 +6,8 @@ import 'swiper/css/navigation';
 
 import 'swiper/css/scrollbar';
 import 'swiper/css/free-mode';
-import Review from "./Review";
-import "./Review.css";
+import Reviews from "./Reviews";
+import "./Reviews.css";
 
 
 const data = [ 
@@ -114,7 +114,7 @@ const data = [
 
                     return (
                       <SwiperSlide key={d.name}>
-                      <Review name={d.name} img={d.img} date={d.date} stars={d.stars} review={d.review} />
+                      <Reviews name={d.name} img={d.img} date={d.date} stars={d.stars} review={d.review} />
                       </SwiperSlide>
                     )
                     })}
