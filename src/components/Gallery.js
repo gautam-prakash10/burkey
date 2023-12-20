@@ -16,11 +16,15 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import "swiper/css/free-mode";
 
-import "./Gallery.css";
+// import "./Gallary.css";
 
-const Gallery = () => {
+const Gallary = () => {
   return(
    <div>
+   <div className="flex justify-center items-center font-serif text-yellow-500 text-4xl p-5">
+  Gallery
+</div>
+
      <Swiper
       autoplay={{
         delay: 3500,
@@ -43,36 +47,35 @@ const Gallery = () => {
       breakpoints={{
         0: {
           slidesPerView: 2,
-
           spaceBetween: 10,
         },
         480: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        1024: {
           slidesPerView: 3,
           spaceBetween: 10,
         },
-        1440: {
-          slidesPerView: 4,
+        768: {
+          slidesPerView: 3,
           spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 6,
+          spaceBetween: 10,
+        },
+        1440: {
+          slidesPerView: 6,
+          spaceBetween: 15,
         },
       }}
     >
-      <div className="">
-        <div class="">
+      <div className="flex flex-col mb-5  ">
+        <div class=" flex-1">
           <SwiperSlide>
             <img
               alt="dish_image"
               width={250}
               height={250}
               className="rounded-md"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl94XFPlhk79IY1nteJCmLa_JzgA_2foNBLA&usqp=CAU"
+              src="https://burkey.in/wp-content/uploads/2023/06/Chicken-Biryani-with-bone-1024x1024.jpg"
             />
           </SwiperSlide>
 
@@ -82,7 +85,7 @@ const Gallery = () => {
               width={250}
               height={250}
               className="rounded-md"
-              src="https://b.zmtcdn.com/data/pictures/chains/8/20598808/5bf834eaa9f7d42385b14eed1f11f128.jpg?fit=around|750:500&crop=750:500;*,*"
+              src="https://burkey.in/wp-content/uploads/2023/06/Chicken-Biryani-with-bone-1024x1024.jpg"
             />
           </SwiperSlide>
 
@@ -122,7 +125,7 @@ const Gallery = () => {
               width={250}
               height={250}
               className="rounded-md"
-              src="https://b.zmtcdn.com/data/pictures/chains/8/20598808/5e947b4fcacc7e7db1265d15b2d62a1f.jpg?fit=around|960:500&crop=960:500;*,*"
+              src="https://burkey.in/wp-content/uploads/2023/06/Chicken-Biryani-with-bone-1024x1024.jpg"
             />
           </SwiperSlide>
         </div>
@@ -152,20 +155,20 @@ const Gallery = () => {
           spaceBetween: 10,
         },
         480: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        1024: {
           slidesPerView: 3,
           spaceBetween: 10,
         },
-        1440: {
-          slidesPerView: 4,
+        768: {
+          slidesPerView: 3,
           spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 6,
+          spaceBetween: 10,
+        },
+        1440: {
+          slidesPerView: 6,
+          spaceBetween: 15,
         },
       }}
     ></Swiper>
@@ -206,7 +209,7 @@ const Gallery = () => {
               width={250}
               height={250}
               className="rounded-md"
-              src="https://b.zmtcdn.com/data/pictures/chains/6/20005096/94f360183bb780be2c3a10329de75616.jpg?fit=around|960:500&crop=960:500;*,*"
+              src="https://burkey.in/wp-content/uploads/2023/06/Chicken-Biryani-with-bone-1024x1024.jpg"
             />
           </SwiperSlide>
 
@@ -226,12 +229,13 @@ const Gallery = () => {
               width={250}
               height={250}
               className="rounded-md"
-              src="https://b.zmtcdn.com/data/pictures/chains/8/20598808/5bf834eaa9f7d42385b14eed1f11f128.jpg?fit=around|750:500&crop=750:500;*,*"
+              src="https://burkey.in/wp-content/uploads/2023/06/Chicken-Biryani-with-bone-1024x1024.jpg"
             />
           </SwiperSlide>
         </div>
       </div>
-    </Swiper> <Swiper
+    </Swiper> 
+    <Swiper 
       autoplay={{
         delay: 3500,
         disableOnInteraction: false,
@@ -257,32 +261,32 @@ const Gallery = () => {
           spaceBetween: 10,
         },
         480: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        1024: {
           slidesPerView: 3,
           spaceBetween: 10,
         },
-        1440: {
-          slidesPerView: 4,
+        768: {
+          slidesPerView: 3,
           spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 6,
+          spaceBetween: 10,
+        },
+        1440: {
+          slidesPerView: 6,
+          spaceBetween: 15,
         },
       }}
     >
-      <div className="">
-        <div class="">
+      <div className=" mt-10">
+        <div class=" mt-10">
           <SwiperSlide>
             <img
               alt="dish_image"
               width={250}
               height={250}
               className="rounded-md"
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl94XFPlhk79IY1nteJCmLa_JzgA_2foNBLA&usqp=CAU"
+              src="https://burkey.in/wp-content/uploads/2023/06/Dal-Tadka-1024x1024.jpg"
             />
           </SwiperSlide>
 
@@ -292,7 +296,7 @@ const Gallery = () => {
               width={250}
               height={250}
               className="rounded-md"
-              src="https://b.zmtcdn.com/data/pictures/chains/8/20598808/5bf834eaa9f7d42385b14eed1f11f128.jpg?fit=around|750:500&crop=750:500;*,*"
+              src="https://burkey.in/wp-content/uploads/2023/06/Dal-Tadka-1024x1024.jpg"
             />
           </SwiperSlide>
 
@@ -332,7 +336,7 @@ const Gallery = () => {
               width={250}
               height={250}
               className="rounded-md"
-              src="https://b.zmtcdn.com/data/pictures/chains/8/20598808/5e947b4fcacc7e7db1265d15b2d62a1f.jpg?fit=around|960:500&crop=960:500;*,*"
+              src="https://burkey.in/wp-content/uploads/2023/06/Dal-Tadka-1024x1024.jpg"
             />
           </SwiperSlide>
         </div>
@@ -349,8 +353,8 @@ const Gallery = () => {
         }}
       navigation={false}
       modules={[Autoplay, Navigation, FreeMode]}
-      spaceBetween={10}
-      slidesPerView={3}
+      spaceBetween={5}
+      slidesPerView={6}
       freeMode={true}
       scrollbar={true}
       onSlideChange={() => console.log("slide change")}
@@ -362,20 +366,20 @@ const Gallery = () => {
           spaceBetween: 10,
         },
         480: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        1024: {
           slidesPerView: 3,
           spaceBetween: 10,
         },
-        1440: {
-          slidesPerView: 4,
+        768: {
+          slidesPerView: 3,
           spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 6,
+          spaceBetween: 10,
+        },
+        1440: {
+          slidesPerView: 6,
+          spaceBetween: 15,
         },
       }}
     ></Swiper>
@@ -406,7 +410,7 @@ const Gallery = () => {
               width={250}
               height={250}
               className="rounded-md"
-              src="https://burkey.in/wp-content/uploads/2023/06/Mirchi-Paratha-Green-Chillies-1024x1024.jpg"
+              src="https://burkey.in/wp-content/uploads/2023/06/Dal-Tadka-1024x1024.jpg"
             />
           </SwiperSlide>
 
@@ -416,7 +420,7 @@ const Gallery = () => {
               width={250}
               height={250}
               className="rounded-md"
-              src="https://b.zmtcdn.com/data/pictures/chains/6/20005096/94f360183bb780be2c3a10329de75616.jpg?fit=around|960:500&crop=960:500;*,*"
+              src="https://burkey.in/wp-content/uploads/2023/06/Mirchi-Paratha-Green-Chillies-1024x1024.jpg"
             />
           </SwiperSlide>
 
@@ -436,7 +440,7 @@ const Gallery = () => {
               width={250}
               height={250}
               className="rounded-md"
-              src="https://b.zmtcdn.com/data/pictures/chains/8/20598808/5bf834eaa9f7d42385b14eed1f11f128.jpg?fit=around|750:500&crop=750:500;*,*"
+              src="https://burkey.in/wp-content/uploads/2023/06/Dal-Tadka-1024x1024.jpg"
             />
           </SwiperSlide>
         </div>
@@ -445,4 +449,4 @@ const Gallery = () => {
    </div>
   );
 };
-export default Gallery;
+export default Gallary;
