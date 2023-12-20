@@ -235,6 +235,7 @@ const Gallary = () => {
         </div>
       </div>
     </Swiper> 
+    <div className="mt-10">
     <Swiper 
       autoplay={{
         delay: 3500,
@@ -446,6 +447,7 @@ const Gallary = () => {
         </div>
       </div>
     </Swiper>
+    </div>
    </div>
   );
 };
