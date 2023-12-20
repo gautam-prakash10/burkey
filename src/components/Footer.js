@@ -3,33 +3,34 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-      <div className="flex flex-col bg-fuchsia-950 md:flex-row mb-10">
+      <div className="flex flex-col  bg-fuchsia-950 md:flex-row mb-10">
 
-        <div className="flex-1 mt-10 md:ml-40 mb-10 md:mb-0 md:text-center">
-          <img src='https://burkey.in/wp-content/uploads/2023/06/burkey-logo.png' className='w-64 h-32 mx-auto md:mx-0' alt="Burkey Logo" />
-        </div>
+      <div className="flex-1 mt-10 pl-4 sm:pl-8 md:pl-16 lg:pl-32 pt-10 md:mt-0 md:ml-4 mb-10 md:mb-0 md:text-center">
+  <img src='https://burkey.in/wp-content/uploads/2023/06/burkey-logo.png' className='w-full h-full items-center mx-auto md:mx-0' alt="Burkey Logo" />
+</div>
 
-        <div className="flex-1 mt-10 ml-4 md:ml-10 mb-10 md:mb-0">
+
+        <div className="flex-1 mt-10 md:ml-4 mb-10 md:mb-0">
           <h4 className='text-yellow-400 font-bold text-center font-serif md:text-left'>VISIT NOW</h4>
           <ul className="list-none">
-            <li className="mt-3">
+            <li className="mt-3 text-center md:text-left">
               <a className="text-white font-serif hover:text-gray-900">SS Omnia, Shop No. GF-157, Sector 86, Gurugram, Haryana, 122004</a>
             </li>
-            <li className="mt-3">
+            <li className="mt-3 text-center md:text-left">
               <a className="text-white font-serif hover:text-gray-900">LGF G 12 & 37 Sushant Shopping Arcade Sushant Lok, Gurugram, 122002</a>
             </li>
           </ul>
         </div>
 
-        <div className="flex-1 mt-10 ml-4 md:ml-10 mb-10 md:mb-0">
+        <div className="flex-1 mt-10 md:ml-4 pl-4 sm:pl-6 md:pl-10 lg:pl-14 mb-10 md:mb-0">
           <h3 className='text-yellow-500 font-bold text-center font-serif md:text-left'>ONLINE ORDER</h3>
           <ul className="list-none">
-            <li className="mt-3 ">
+            <li className="mt-3 text-center md:text-left">
               <a className="text-white cursor-pointer hover:text-gray-900">
                 <img src='https://burkey.in/wp-content/uploads/2023/06/swig.png' className='mx-auto md:mx-0' alt="Swiggy" />
               </a>
             </li>
-            <li className="mt-3">
+            <li className="mt-3 text-center md:text-left">
               <a className="text-white cursor-pointer hover:text-gray-900">
                 <img src='https://burkey.in/wp-content/uploads/2023/06/zom.png' className='mx-auto md:mx-0' alt="Zomato" />
               </a>
@@ -37,15 +38,15 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="flex-1 mt-10 ml-4 md:ml-10 mb-10 md:mb-0">
+        <div className="flex-1 mt-10 md:ml-4 mb-10 md:mb-0">
           <h3 className='font-bold text-yellow-500 text-center font-serif md:text-left'>BULK ORDERS</h3>
           <p className='text-white text-center font-serif md:text-left'>+91 96670 33400</p>
         </div>
 
-        <div className="flex-1 mt-10 ml-4 md:ml-10">
+        <div className="flex-1 mt-10 md:ml-4">
           <h3 className='font-bold text-yellow-500 font-serif text-center md:text-left'>FOLLOW US</h3>
-          <ul className="list-none">
-            <li className="mt-3">
+          <ul className="list-none sm:flex sm:gap-4 sm:items-center md:flex md:gap-6 md:items-center lg:flex lg:gap-8 lg:items-center">
+            <li className="mt-3 text-center md:text-left">
               <a
                 href="/"
                 rel="noreferrer"
@@ -68,7 +69,7 @@ const Footer = () => {
                 </svg>
               </a>
             </li>
-            <li className="mt-3">
+            <li className="mt-3 text-center md:text-left">
               <a
                 href="/"
                 rel="noreferrer"
@@ -87,17 +88,16 @@ const Footer = () => {
                   d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
                   clip-rule="evenodd"
                 />
-                  {/* Facebook icon path */}
+                   {/* Facebook icon path */}
                 </svg>
               </a>
             </li>
           </ul>
         </div>
       </div>
-        <div className="bg-fuchsia-950 text-white text-sm text-center -mt-10 py-5">
-          Copyright © 2023 Burkey All Rights Reserved.| Privacy Policy | Terms of Services
-        </div>
-      
+      <div className="bg-fuchsia-950 text-white text-sm text-center -mt-10 py-5">
+        Copyright © 2023 Burkey All Rights Reserved.| Privacy Policy | Terms of Services
+      </div>
     </div>
   );
 }
