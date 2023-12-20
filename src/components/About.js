@@ -12,7 +12,7 @@ const About = () => {
            As the name symbolises, our mouth watering Punjabi Niwala will leave your taste buds carving for another Burkey. 
           The true art of North Indian cooking lies in the subtle use and variation of spices which makes each dish different and exotic
           </p>
-          <button className='bg-white hover:bg-gray-200 text-black-500 py-2 px-4 font-semi-bold rounded-3xl'>Know More</button>
+          <button className='bg-white hover:bg-gray-200 text-black-500 py-2 px-7 font-semi-bold rounded-3xl'>Know More</button>
           </div>
 
           <div className="flex-1 mt-10 ml-10 w-200 h-200 items-right">
